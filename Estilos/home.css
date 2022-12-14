@@ -1,5 +1,7 @@
+
 body {
-    background-color: bisque;
+    margin: 0px;
+    background-color: #dfdddc;
     font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
@@ -13,17 +15,14 @@ body {
   flex-direction: column;
   align-items: flex-start;
   /* z-index: 99999; */
+
 }
- .home{
-    background-color: bisque;
-    height: 100vh;
-    width: 100vw;
-    
- }
+
+
 .title { 
-    font-size: 150px;
-    line-height: 120px;
-    letter-spacing: 10px;
+    font-size: 180px;
+    line-height: 210px;
+    letter-spacing: 0px;
     color: #000000;
     font-weight: 480;
     text-decoration: none;
@@ -33,16 +32,16 @@ body {
     top: 10px;
     width: 90%;
     position: absolute;
-    z-index: 50;
+    margin-left: 40px;
 
 }
 
 .vertical{
-    width: 190px;
-    height: 240px;
+    width: 290px;
+    height: 340px;
     position: absolute;
-    right:100px;
-    top:10px;
+    right:150px;
+    top:60px;
     z-index: 3;
 }
 
@@ -52,8 +51,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 250px; 
-    right: 140px;
+    top: 400px; 
+    right: 300px;
 }
 
 .pvertical {
@@ -62,16 +61,16 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 280px; 
-    right: 83px;
+    top: 440px; 
+    right: 240px;
 }
 
 .imgdiseño{
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 200px;
     position: absolute;
-    left:190px;
-    top:140px;
+    left:83px;
+    top:200px;
 }
 
 .subdiseño{ 
@@ -80,8 +79,10 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 260px; 
-    right: 1075px;
+    top: 400px; 
+    left:83px;
+
+   
 }
 
 .pdiseño{
@@ -91,18 +92,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 280px; 
-    right: 996px;
+    top: 440px; 
+    right: 1100px;
 
 }
 
 .imgmapping {
 
-    width: 190px;
-    height: 100px;
+    width: 290px;
+    height: 150px;
     position: absolute;
-    right: 400px;
-    top:320px;
+    right: 550px;
+    top:600px;
 
 }
 .submapping{ 
@@ -112,8 +113,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:420px; 
-    right: 485px;
+    top:750px; 
+    right: 735px;
 }
 
 .pmapping{
@@ -123,18 +124,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 460px; 
-    right:390px;
+    top: 780px; 
+    right:640px;
 
 }
 
 .imgweb {
 
-    width: 190px;
-    height: 100px;
+    width: 290px;
+    height: 150px;
     position: absolute;
-    right:100px;
-    top:320px;
+    right:150px;
+    top:600px;
     z-index: 3;
 
 }
@@ -145,8 +146,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:420px; 
-    right: 240px;
+    top:750px; 
+    right: 390px;
     z-index: 2;
 }
 
@@ -157,18 +158,20 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 460px; 
-    right: 150px;
+    top: 780px; 
+    right: 300px;
     z-index: 1;
 }
 
 .imgvjs {
 
-    width: 550px;
+    width: 950px;
     height: 200px;
-    position: absolute;
-    left:200px;
-    top: 473px;
+    position: relative;
+    right:450px;
+    top: 850px;
+    padding-left:40% ;
+
 
 }
 .subvjs { 
@@ -178,8 +181,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 680px; 
-    right: 1100px;
+    top: 1050px; 
+    right: 1220px;
 }
 
 .pvjs {
@@ -189,18 +192,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 700px; 
-    right: 1030px;
+    top: 1100px; 
+    right: 1140px;
 
 }
 
 .imgiluminacion {
 
-    width: 190px;
-    height: 100px;
+    width: 290px;
+    height: 150px;
     position: absolute;
-    left:200px;
-    top: 750px;
+    left:83px;
+    top: 1200px;
 
 }
 .subiluminacion { 
@@ -210,8 +213,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 850px; 
-    right: 990px;
+    top: 1350px; 
+    right: 1110px;
 }
 
 .piluminacion {
@@ -221,18 +224,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 880px; 
-    right: 1020px;
+    top: 1400px; 
+    right: 1135px;
 
 }
 
 .imganimacion {
 
-    width: 190px;
-    height: 100px;
+    width: 290px;
+    height: 150px;
     position: absolute;
-    right: 400px;
-    top:750px;
+    right: 500px;
+    top:1200px;
 
 }
 .subanimacion{ 
@@ -242,8 +245,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:850px; 
-    right: 380px; 
+    top:1350px; 
+    right: 580px; 
 }
 
 .panimacion{
@@ -253,18 +256,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 870px; 
-    right:490px;
+    top: 1400px; 
+    right:695px;
 
 }
 
 .imgalgomas {
 
-    width: 190px;
-    height: 100px;
+    width: 290px;
+    height: 150px;
     position: absolute;
     right: 100px;
-    top:750px;
+    top:1200px;
 
 }
 
@@ -275,8 +278,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:850px; 
-    right: 120px; 
+    top:1350px; 
+    right: 220px; 
 }
 
 .palgomas{
@@ -286,46 +289,46 @@ body {
     text-align: justify;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 880px; 
-    right:205px;
+    top: 1400px; 
+    right:305px;
 
 }
 
 .box h2{
-    font-size: 100px;
+    font-size: 160px;
     position: absolute;
     text-transform: uppercase;
     writing-mode: vertical-rl;
-    left:615px;
+    left:300px;
     transform: rotate(180deg);
     line-height:5px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     color: #000000;
     font-weight: 350;
-    top: 450px;
+    top: 830px;
 }
 
 .box h3{
-    font-size: 100px;
+    font-size: 150px;
     position: relative;
     letter-spacing: 0px;
     text-transform: uppercase;
     writing-mode: vertical-rl;
-    left:910px;
+    left:650px;
     transform: rotate(180deg);
-    line-height: 0px;
+    line-height: 10px;
     color: #000000;
     font-weight: 360;
-    top: 420px;
+    top: 650px;
 }
 
 .box h4{
-    font-size: 100px;
+    font-size: 150px;
     position: relative;
     letter-spacing: 0px;
     text-transform: uppercase;
     writing-mode: vertical-rl;
-    left:960px;
+    left:800px;
     transform: rotate(180deg);
     line-height: 0px;
     color: #000000;
