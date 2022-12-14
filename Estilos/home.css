@@ -1,0 +1,361 @@
+body {
+    background-color: bisque;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.toggleMenu{
+    z-index: 9999;
+}
+
+.navbar .container-fluid, 
+.navbar-expand-lg .navbar-collapse, 
+.navbar-expand-lg .navbar-nav{
+  flex-direction: column;
+  align-items: flex-start;
+  /* z-index: 99999; */
+}
+ .home{
+    background-color: bisque;
+    height: 100vh;
+    width: 100vw;
+    
+ }
+.title { 
+    font-size: 150px;
+    line-height: 120px;
+    letter-spacing: 10px;
+    color: #000000;
+    font-weight: 480;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    font-variant: normal;
+    top: 10px;
+    width: 90%;
+    position: absolute;
+    z-index: 50;
+
+}
+
+.vertical{
+    width: 190px;
+    height: 240px;
+    position: absolute;
+    right:100px;
+    top:10px;
+    z-index: 3;
+}
+
+.subvertical{ 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 250px; 
+    right: 140px;
+}
+
+.pvertical {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 280px; 
+    right: 83px;
+}
+
+.imgdiseño{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left:190px;
+    top:140px;
+}
+
+.subdiseño{ 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 260px; 
+    right: 1075px;
+}
+
+.pdiseño{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 280px; 
+    right: 996px;
+
+}
+
+.imgmapping {
+
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    right: 400px;
+    top:320px;
+
+}
+.submapping{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top:420px; 
+    right: 485px;
+}
+
+.pmapping{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 460px; 
+    right:390px;
+
+}
+
+.imgweb {
+
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    right:100px;
+    top:320px;
+    z-index: 3;
+
+}
+.subweb{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top:420px; 
+    right: 240px;
+    z-index: 2;
+}
+
+.pweb{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 460px; 
+    right: 150px;
+    z-index: 1;
+}
+
+.imgvjs {
+
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    left:200px;
+    top: 473px;
+
+}
+.subvjs { 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 680px; 
+    right: 1100px;
+}
+
+.pvjs {
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 700px; 
+    right: 1030px;
+
+}
+
+.imgiluminacion {
+
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    left:200px;
+    top: 750px;
+
+}
+.subiluminacion { 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 850px; 
+    right: 990px;
+}
+
+.piluminacion {
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 880px; 
+    right: 1020px;
+
+}
+
+.imganimacion {
+
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    right: 400px;
+    top:750px;
+
+}
+.subanimacion{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top:850px; 
+    right: 380px; 
+}
+
+.panimacion{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 870px; 
+    right:490px;
+
+}
+
+.imgalgomas {
+
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    top:750px;
+
+}
+
+.subalgomas{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top:850px; 
+    right: 120px; 
+}
+
+.palgomas{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 880px; 
+    right:205px;
+
+}
+
+.box h2{
+    font-size: 100px;
+    position: absolute;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    left:615px;
+    transform: rotate(180deg);
+    line-height:5px;
+    letter-spacing: 10px;
+    color: #000000;
+    font-weight: 350;
+    top: 450px;
+}
+
+.box h3{
+    font-size: 100px;
+    position: relative;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    left:910px;
+    transform: rotate(180deg);
+    line-height: 0px;
+    color: #000000;
+    font-weight: 360;
+    top: 420px;
+}
+
+.box h4{
+    font-size: 100px;
+    position: relative;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    left:960px;
+    transform: rotate(180deg);
+    line-height: 0px;
+    color: #000000;
+    font-weight: 360;
+    top: 0px;
+}
+
+
+
+.noSeleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+@media (min-width: 992px) {
+
+    .toggleMenu{
+        z-index: 9999;
+        position: fixed;
+        top:12rem;
+        left:3rem
+    }
+  .navbar {
+    width: 15%;
+    position: fixed;
+    top: 15rem
+      }
+  form input {
+    margin-bottom: 0.7em;
+  }
+}
