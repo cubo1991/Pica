@@ -1,8 +1,16 @@
 
+:root{
+    --main-bg-color: #dfdddc
+}
+
 body {
     margin: 0px;
-    background-color: #dfdddc;
+    background-color: var(--main-bg-color);
     font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+.contenido {
+   position: relative;
+   top:40rem
 }
 
 .toggleMenu{
@@ -14,11 +22,20 @@ body {
 .navbar-expand-lg .navbar-nav{
   flex-direction: column;
   align-items: flex-start;
-  /* z-index: 99999; */
+ 
 
 }
 
-
+.border{
+    background: linear-gradient(18deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple );
+    z-index: 9999;
+    position: absolute;
+    width: 214.5vh;
+    height: 101%;
+    animation-name: backAnimado;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+}
 .title { 
     font-size: 180px;
     line-height: 210px;
@@ -33,9 +50,47 @@ body {
     width: 90%;
     position: absolute;
     margin-left: 40px;
+    z-index: 9999; 
+   
+    animation-name: tituloAnimado;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
 
 }
 
+
+@keyframes tituloAnimado {
+    0% {
+    width: 15px;}
+    50% {
+    width: 45px}
+    100% {
+    width: 90px;}
+}
+@keyframes backAnimado {
+    5%{ background: linear-gradient(18deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    10%{ background: linear-gradient(36deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    15%{ background: linear-gradient(54deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    20%{ background: linear-gradient(72deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    25%{ background: linear-gradient(90deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    30%{ background: linear-gradient(108deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    35%{ background: linear-gradient(126deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    40%{ background: linear-gradient(144deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    45%{ background: linear-gradient(162deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    50%{ background: linear-gradient(180deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    55%{ background: linear-gradient(198deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    60%{ background: linear-gradient(216deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    65%{ background: linear-gradient(234deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    70%{ background: linear-gradient(252deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    75%{ background: linear-gradient(270deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    80%{ background: linear-gradient(288deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    85%{ background: linear-gradient(306deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    90%{ background: linear-gradient(324deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    95%{ background: linear-gradient(342deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+    100%{ background: linear-gradient(360deg, red,orange, yellow, green, #1ddde8, #2b1de8, purple )}
+
+    
+}
 .vertical{
     width: 290px;
     height: 340px;
@@ -336,7 +391,9 @@ body {
     top: 0px;
 }
 
-
+.zindex{
+    z-index: 9999;
+}
 
 .noSeleccionable {
     -webkit-user-select: none;
