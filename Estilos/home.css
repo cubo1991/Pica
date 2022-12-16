@@ -57,7 +57,13 @@ body {
 
 }
 
-
+footer{
+    border: solid 3px red;
+    position: absolute;
+    top:400vh;
+    height: 20rem;
+    width: 100%;
+}
 @keyframes tituloAnimado {
     0% {
     width: 15px;}
