@@ -41,13 +41,12 @@ body {
     line-height: 210px;
     letter-spacing: 0px;
     color: #000000;
-    font-weight: 480;
+    font-weight: 480PX;
     text-decoration: none;
     text-align: center;
     font-style: normal;
     font-variant: normal;
-    top: 10px;
-    width: 90%;
+       
     position: absolute;
     margin-left: 40px;
     z-index: 9999; 
